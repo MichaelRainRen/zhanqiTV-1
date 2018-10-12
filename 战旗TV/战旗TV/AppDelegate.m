@@ -24,6 +24,7 @@ float kDeviceHeight = 568.0;
     CGRect cframe = [[UIScreen mainScreen] bounds];
     
     kDeviceWidth = cframe.size.width;
+    kDeviceWidth = cframe.size.width;
     kDeviceHeight = cframe.size.height;
     kDeviceFactor = kDeviceHeight <= 568.0 ? 1.0 : kDeviceHeight / 568.0;
     self.window = [[UIWindow alloc] initWithFrame:cframe];
