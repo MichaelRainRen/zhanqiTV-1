@@ -23,6 +23,7 @@ float kDeviceHeight = 568.0;
      [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; 
     CGRect cframe = [[UIScreen mainScreen] bounds];
     
+    
     kDeviceWidth = cframe.size.width;
     kDeviceWidth = cframe.size.width;
     kDeviceHeight = cframe.size.height;
